@@ -43,3 +43,47 @@
 .margin-10 {
   margin-left: 10px;
 }
+
+/* react-responsive-carousel */
+
+.carousel-box {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.carousel .thumbs {
+  padding: 0px 0px 0px 0px;
+}
+
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center !important;
+  margin: 0 !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+  bottom: 20px !important;
+  top: 200px !important;
+  color: black !important;
+}
+
+.carousel .thumb {
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #888888;
+}
+
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+  border: 3px solid green !important;
+  border-radius: 10px;
+}
+
+.carousel .thumb.selected {
+  border: 3px solid green !important;
+  border-radius: 10px;
+}
+
+.carousel .carousel-status {
+  bottom: 0px !important;
+  font-size: 15px !important;
+}
